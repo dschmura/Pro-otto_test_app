@@ -1,0 +1,67 @@
+{
+    "File": {
+        "ID": "0b72993d-8e0d-24c2-e21b-e1c5f47627ed",
+        "Path": "/Users/dschmura/code/Rails/otto_test_app/Appfile",
+        "Source": "",
+        "Application": {
+            "Name": "otto_test_app",
+            "Type": "rails",
+            "Dependencies": null
+        },
+        "Project": {
+            "Name": "otto_test_app",
+            "Infrastructure": "otto_test_app"
+        },
+        "Infrastructure": [
+            {
+                "Name": "otto_test_app",
+                "Type": "aws",
+                "Flavor": "simple",
+                "Foundations": [
+                    {
+                        "Name": "consul",
+                        "Config": null
+                    }
+                ]
+            }
+        ],
+        "Customization": null,
+        "Imports": null
+    },
+    "Vertices": [
+        {
+            "File": {
+                "ID": "0b72993d-8e0d-24c2-e21b-e1c5f47627ed",
+                "Path": "/Users/dschmura/code/Rails/otto_test_app/Appfile",
+                "Source": "",
+                "Application": {
+                    "Name": "otto_test_app",
+                    "Type": "rails",
+                    "Dependencies": null
+                },
+                "Project": {
+                    "Name": "otto_test_app",
+                    "Infrastructure": "otto_test_app"
+                },
+                "Infrastructure": [
+                    {
+                        "Name": "otto_test_app",
+                        "Type": "aws",
+                        "Flavor": "simple",
+                        "Foundations": [
+                            {
+                                "Name": "consul",
+                                "Config": null
+                            }
+                        ]
+                    }
+                ],
+                "Customization": null,
+                "Imports": null
+            },
+            "Dir": "",
+            "NameValue": "otto_test_app"
+        }
+    ],
+    "Edges": []
+}
